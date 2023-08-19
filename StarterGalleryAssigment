@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StarterGalleryAssigment</title>
+</head>
+<body>
+    <h1>Mountain Landscapes</h1>
+    <div class="image-container">
+        <img src="https://unsplash.com/es/fotos/GA2sc8nIOsk" alt="Woman swimming alone in a water frame" width="200px" height="200px"/>
+        <img src="https://unsplash.com/es/fotos/tloFnD-7EpI" alt="Two minions characters on top of a red table" width="200px" height="200px"/>
+        <img src="https://unsplash.com/es/fotos/UIhc7sohnvc" alt="Brown and black tiger drinking water" width="200px" height="200px"/>
+    </div>
+</body>
+</html>
+
