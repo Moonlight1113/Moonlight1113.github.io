@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<h2>Athlete Comparison: Swimmers vs. Volleyball Players</h2>
+
+<table>
+  <tr>
+    <th>Athlete</th>
+    <th>Age</th>
+    <th>Height (cm)</th>
+    <th>Weight (kg)</th>
+    <th>Training Hours per Week</th>
+  </tr>
+  <tr>
+    <td>Swimmer A</td>
+    <td>25</td>
+    <td>180</td>
+    <td>70</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Swimmer B</td>
+    <td>28</td>
+    <td>175</td>
+    <td>68</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>Volleyball Player X</td>
+    <td>29</td>
+    <td>192</td>
+    <td>85</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Volleyball Player Y</td>
+    <td>27</td>
+    <td>187</td>
+    <td>75</td>
+    <td>15</td>
+  </tr>
+</table>
+
+<h3>Conclusions:</h3>
+<ul>
+  <li>Swimmers tend to have lower weights compared to volleyball players, which might be due to the nature of their sport requiring a leaner physique.</li>
+  <li>Volleyball players generally have taller heights than swimmers, possibly because height can be an advantage in volleyball for reaching and blocking.</li>
+  <li>Swimmers typically spend more hours per week on training compared to volleyball players, indicating the intensive nature of swimming training.</li>
+</ul>
+
+</body>
+</html>
+
