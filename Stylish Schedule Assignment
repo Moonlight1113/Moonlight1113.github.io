@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moon Mondays</title>
+    <style>
+        /* Style for the entire table */
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        /* Style for table headers */
+        th {
+            background-color: #89cff0;
+            color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Style for table rows */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Style for table cells */
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        /* Style for the first column */
+        td:first-child {
+            font-weight: bold;
+        }
+
+        /* Style for specific cells using classes */
+        .important-event {
+            background-color: #f08080;
+            color: white;
+        }
+
+        .lunch-event {
+            background-color: #98fb98;
+            color: #333;
+        }
+
+        /* Style for specific cells using IDs */
+        #morning {
+            background-color: #ffd700;
+            color: #333;
+        }
+
+        #afternoon {
+            background-color: #ff6347;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Moon Mondays</h1>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Location</th>
+        </tr>
+        <tr id="morning">
+            <td>5:00 AM</td>
+            <td class="important-event">Pool training</td>
+            <td>Compensar Club</td>
+        </tr>
+        <tr>
+            <td>8:30 AM</td>
+            <td>Gym training</td>
+            <td>CCD Sport Ministry</td>
+        </tr>
+        <tr id="morning">
+            <td>11:00 AM</td>
+            <td class="important-event">I connect to classes</td>
+            <td>My home</td>
+        </tr>
+        <tr>
+            <td>12:30 AM</td>
+            <td>Eat my lunch</td>
+            <td>Dining room</td>
+        </tr>
+        <tr id="afternoon">
+            <td>3:30 PM</td>
+            <td class="lunch-event">Gym training</td>
+            <td>Compensar Club</td>
+        </tr>
+        <tr>
+            <td>5:30 PM</td>
+            <td>Eat some frute </td>
+            <td>Park</td>
+        </tr>
+        <tr id="morning">
+            <td>6:00 PM</td>
+            <td class="important-event">The strongest workout of the day</td>
+            <td>Compensar Pool</td>
+        </tr>
+        <tr>
+            <td>8:30 PM</td>
+            <td>Eat the dinner</td>
+            <td>My home</td>
+        </tr>
+        <tr id="afternoon">
+            <td>9:30 PM</td>
+            <td class="lunch-event">Stretching</td>
+            <td>My home</td>
+        </tr>
+        <tr id="morning">
+            <td>10:30 PM</td>
+            <td class="important-event">Bedtime</td>
+            <td>Bedroom</td>
+        </tr>
+    </table>
+</body>
+</html>
