@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menus from Moon</title>
+    <style>
+        
+        .menu {
+            width: 400px;
+            height: 550px;
+            padding: 20px;
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-size: cover; 
+        }
+
+        /* Breakfast menu specific styles */
+        #breakfast {
+            background-image: url('https://plus.unsplash.com/premium_photo-1672363353897-ae5a81a1ab57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');
+            
+            width: 400px;
+            height: 550px;
+            padding: 20px;
+            background-color: #555555;
+            margin: 30px;
+            
+            width: 400px;
+            height: 550px;
+            border-style: solid;
+            border-width: thick;
+            border-color: orange;
+        }
+
+        /* Lunch menu specific styles */
+        #lunch {
+            background-image: url('https://images.unsplash.com/photo-1579631542720-3a87824fff86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80'); 
+            
+            width: 400px;
+            height: 550px;
+            padding: 20px;
+            background-color: #555555;
+            margin: 30px;
+            
+            width: 400px;
+            height: 550px;
+            border-style: solid;
+            border-width: thick;
+            border-color: orange;
+        }
+
+        /* Dinner menu specific styles */
+        #dinner {
+            background-image: url('https://images.unsplash.com/photo-1546793665-c74683f339c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');
+            
+            width: 400px;
+            height: 550px;
+            padding: 20px;
+            background-color: #555555;
+            margin: 30px;
+            
+            width: 400px;
+            height: 550px;
+            border-style: solid;
+            border-width: thick;
+            border-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="menu" id="breakfast">
+        <h2>Breakfast Menu</h2>
+        <ul>
+            <li>Eggs Benedict</li>
+            <li>Blueberries</li>
+            <li>Strawberries</li>
+            <li>Banana</li>
+            <li>French Toast</li>
+            <li>Coffee</li>
+        </ul>
+    </div>
+
+    <div class="menu" id="lunch">
+        <h2>Lunch Menu</h2>
+        <ul>
+            <li>Pasta</li>
+            <li>Chicken</li>
+            <li>Cheese</li>
+            <li>Lemon tea</li>
+        </ul>
+    </div>
+
+    <div class="menu" id="dinner">
+        <h2>Dinner Menu</h2>
+        <ul>
+            <li>Natural vegetables</li>
+            <li>Chicken</li>
+            <li>Caesar salad</li>
+            <li>Flavored water</li>
+        </ul>
+    </div>
+
+</body>
+</html>
