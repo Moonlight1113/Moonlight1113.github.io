@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Scheme Assignment</title>
+</head>
+<body>
+    <h1 style="font-family: Arial, sans-serif;">Color Scheme: Love for my family</h1>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>Color Name</th>
+            <th>Background Color</th>
+            <th>Hex Value</th>
+            <th>RGB Value</th>
+            <th>HSL Value</th>
+        </tr>
+        <tr>
+            <td>Passion Red</td>
+            <td style="background-color: #FF5757;"></td>
+            <td>#FF5757</td>
+            <td>rgb(255, 87, 87)</td>
+            <td>hsl(0, 100%, 68%)</td>
+        </tr>
+        <tr>
+            <td>Sweet Pink</td>
+            <td style="background-color: #FF9EB7;"></td>
+            <td>#FF9EB7</td>
+            <td>rgb(255, 158, 183)</td>
+            <td>hsl(342, 100%, 77%)</td>
+        </tr>
+        <tr>
+            <td>Affectionate Orange</td>
+            <td style="background-color: #FFAB7E;"></td>
+            <td>#FFAB7E</td>
+            <td>rgb(255, 171, 126)</td>
+            <td>hsl(22, 100%, 72%)</td>
+        </tr>
+        <tr>
+            <td>Tender Lavender</td>
+            <td style="background-color: #D9A4E3;"></td>
+            <td>#D9A4E3</td>
+            <td>rgb(217, 164, 227)</td>
+            <td>hsl(271, 50%, 75%)</td>
+        </tr>
+    </table>
+    <p>Embrace the warmth and tenderness of the Heartfelt Love color scheme, inspired by the colors of love and affection.</p>
+</body>
+</html>
