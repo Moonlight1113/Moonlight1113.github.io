@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My page of Flexbox</title>
+</head>
+<body>
+    <div class="container">
+        <section class="identity">
+            <h1>Luz de Luna Lovera</h1>
+            <h2>My dear felxbox</h2>
+        </section>
+        <section class="puzzle-info">
+            <p>Información del rompecabezas</p>
+        </section>
+        <section class="puzzle-image">
+            <div class="puzzle-container">
+                <img src="images.jpg" alt="Pieza 1">
+                <img src="images.jpg" alt="Pieza 2">
+            </div>
+        </section>
+        <section class="task-date">
+            <p>Fecha de la tarea: 18 de septiembre de 2023</p>
+        </section>
+    </div>
+</body>
+</html>
