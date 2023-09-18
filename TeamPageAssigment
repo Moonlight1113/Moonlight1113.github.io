@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página del Equipo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: #fff;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        .team-member {
+            float: left;
+            width: 25%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .team-member img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        .team-member p {
+            text-align: center;
+        }
+        .clear {
+            clear: both;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TEAM SWIMMING</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Proyectos</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="team-member">
+        <img src="https://images.unsplash.com/photo-1593215261340-ca189da98636?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1436&q=80" alt="Miembro 1">
+        <p>Marianna Perez</p>
+        <p>An American swimmer born on September 5, 1992 in California, she has excelled in backstroke and relay events. She has represented her country in the Olympic Games and has won silver and bronze medals on several occasions. Marianna is also an advocate for gender equality in sport and actively works to promote women's participation in elite swimming. She is on this Team because she represents fight and discipline.</p>
+    </div>
+    <div class="team-member">
+        <img src="https://images.unsplash.com/photo-1586731023793-871d4799d0ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="Miembro 2">
+        <p>Carlos Lopez</p>
+        <p>He is a professional swimmer born in New York on March 15, 1990. He began swimming at a young age and demonstrated exceptional talent from the beginning. He has competed in numerous national and international championships, and has earned several gold medals in freestyle and butterfly events. Carlos is also a passionate advocate for environmental conservation and actively works on projects to clean up the oceans. He is on this team because he is a great swimmer and thanks to his efforts he managed to reach this level.</p>
+    </div>
+    <div class="team-member">
+        <img src="https://images.unsplash.com/photo-1565090773655-2c92242198c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Miembro 3">
+        <p>Sebastian Cruz</p>
+        <p>Originally from Barcelona, Spain, he is an outstanding sprint swimmer born on June 10, 1997. Sebastian is the winner of several world records in the backstroke, mainly in the 50 and 100 meter events. He came to this team because his perseverance and focus on the sport allowed him to be part of one of the most important teams in the world.</p>
+    </div>
+    <div class="team-member">
+        <img src="https://images.unsplash.com/photo-1619115445677-ee82a090e073?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Miembro 4">
+        <p>Luna Loaiza</p>
+        <p>Originally from Rio de Janeiro, Brazil, she was born on December 20, 1998 and has excelled in distance swimming. She is a great swimmer with different records in all styles, her best test is the 400 freestyle. She is also a great photographer, with more than 15 exhibitions in her life. She is on this Team because of all her abilities as an athlete and as a person.</p>
+    </div>
+    <div class="clear"></div>
+    <footer class="footer">
+        <p>&copy; 2023 TEAM SWIMMING IN COLOMBIA</p>
+    </footer>
+</body>
+</html>
