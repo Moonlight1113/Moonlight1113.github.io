@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Image Projects</title>
+</head>
+<body>
+    <!-- Project 1 -->
+    <div class="project">
+        <img src="https://www.pngall.com/wp-content/uploads/11/Gull-PNG.png" alt="Gull Image">
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project">
+        <img src="https://previews.123rf.com/images/siamimages/siamimages1502/siamimages150200487/36933081-tarjeta-feliz-del-d%C3%ADa-de-san-valent%C3%ADn-tic-tac-toe-juego-cruz-signo-de-coraz%C3%B3n-xoxo.jpg" alt="Tic Tac Toe Image">
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project">
+        <img src="https://img.freepik.com/vector-premium/escenario-teatro-cortina-roja_165488-1563.jpg?w=740" alt="Theater Image">
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project">
+        <img src="https://www.muylinux.com/wp-content/uploads/2014/09/shutterstock_107424374.jpg" alt="Linux Image">
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project">
+        <img src="https://previews.123rf.com/images/polkan/polkan1303/polkan130300045/18721504-ilustraci%C3%B3n-de-un-dinosaurio-va.jpg" alt="Dinosaur Image">
+    </div>
+
+    <!-- Project 6 -->
+    <div class="project">
+        <img src="https://img.freepik.com/vector-premium/vector-campo-futbol-americano_108855-4813.jpg?w=996" alt="Football Field Image">
+        <img src="https://tn.com.ar/resizer/oEd3S8xRFUG729hrJDkciwF-n_Q=/1023x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/JB265FTPBMI766THXZT4DQZKKA.jpg" alt="Tic Tac Toe Image">
+    </div>
+</body>
+</html>
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.project {
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Specific styles for individual projects, adjust as needed */
+.project:nth-child(1) img {
+    filter: grayscale(100%);
+}
+
+.project:nth-child(2) img {
+    filter: invert(100%);
+}
+
+.project:nth-child(3) img {
+    filter: sepia(100%);
+}
+
+.project:nth-child(4) img {
+    filter: brightness(50%);
+}
+
+.project:nth-child(5) img {
+    filter: hue-rotate(180deg);
+}
+
+.project:nth-child(6) {
+    position: relative;
+}
+
+.project:nth-child(6) img {
+    width: 100%;
+    height: auto;
+}
+
+.project:nth-child(6) img:first-child {
+    filter: none;
+}
+
+.project:nth-child(6) img:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
